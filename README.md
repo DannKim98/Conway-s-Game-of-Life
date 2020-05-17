@@ -7,3 +7,4 @@ Press 'Evolve' button to evolve the environment continuosly.
 Press 'Pause' button to pause the evolution.
 Press 'Evolve' button to resume the evolution.
 Press 'Kill Alll' button to erase all cells.
+An executable file is in dist directory.
