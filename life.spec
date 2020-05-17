@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['life.py'],
-             pathex=["/home/dann/Desktop/Conway's_Game_of_Life"],
+             pathex=['/home/dann/Desktop/Conway-s-Game-of-Life'],
              binaries=[],
              datas=[],
              hiddenimports=[],

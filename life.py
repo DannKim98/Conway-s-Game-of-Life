@@ -2,7 +2,7 @@ from tkinter import *
 
 deadColor, aliveColor = 'black', 'green'
 cellSize = 10
-width, height = 1000, 770
+width, height = 1000, 600
 numRows, numCols = height//cellSize, width//cellSize
 table = [[None for j in range(numCols)] for i in range(numRows)]
 stop = False
@@ -56,6 +56,8 @@ def step():
 				die(i, j)
 
 def killAll():
+	global stop
+	stop = True
 	for i in range(numRows):
 		for j in range(numCols):
 			die(i, j)
